@@ -34,8 +34,10 @@ sim:/spwstream_tb/erresc \
 sim:/spwstream_tb/errcred \
 sim:/spwstream_tb/spw_di \
 sim:/spwstream_tb/spw_si \
+sim:/spwstream_tb/xor_o \
 sim:/spwstream_tb/spw_do \
 sim:/spwstream_tb/spw_so \
+sim:/spwstream_tb/xor_i
 sim:/spwstream_tb/spwstream_inst/link_inst/r\
 sim:/spwstream_tb/spwstream_inst/r\
 sim:/spwstream_tb/spwstream_inst/recv_rxen
