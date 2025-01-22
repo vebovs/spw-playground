@@ -1,3 +1,6 @@
+view wave 
+delete wave *
+
 add wave -position insertpoint  \
 sim:/spwlink_tb/sysclk \
 sim:/spwlink_tb/rxclk \
