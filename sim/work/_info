@@ -52,25 +52,25 @@ R12
 R13
 R14
 Espwlink_tb
-R0
+Z15 w1737547929
 R1
 R2
 R3
 R4
 R5
-Z15 8C:/spw-playground/tb/spwlink_tb.vhd
-Z16 FC:/spw-playground/tb/spwlink_tb.vhd
+Z16 8C:/spw-playground/tb/spwlink_tb.vhd
+Z17 FC:/spw-playground/tb/spwlink_tb.vhd
 l0
 L18
 VO]B<15IOdFVNolbNfQ?A]3
 !s100 jYOj225hc6SbfnVdC1BEB0
 R8
 33
-R9
+Z18 !s110 1737547934
 !i10b 1
-R10
-Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/tb/spwlink_tb.vhd|
-Z18 !s107 C:/spw-playground/tb/spwlink_tb.vhd|
+Z19 !s108 1737547934.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/tb/spwlink_tb.vhd|
+Z21 !s107 C:/spw-playground/tb/spwlink_tb.vhd|
 !i113 1
 R13
 R14
@@ -79,18 +79,18 @@ R1
 R2
 R3
 R4
-Z19 DEx4 work 10 spwlink_tb 0 22 O]B<15IOdFVNolbNfQ?A]3
-l164
+DEx4 work 10 spwlink_tb 0 22 O]B<15IOdFVNolbNfQ?A]3
+l167
 L54
-Z20 VdOAU8Vmh[870GE?`WH54e3
-Z21 !s100 iL[W1Ti5TOX>MF5YnoP`@2
+V1Hl[W0iKF^TRKjoW>P^m]0
+!s100 WOIfcQ3NNaBMj`U?YZ63z0
 R8
 33
-R9
-!i10b 1
-R10
-R17
 R18
+!i10b 1
+R19
+R20
+R21
 !i113 1
 R13
 R14
@@ -326,6 +326,92 @@ R41
 !i113 1
 R13
 R14
+Espwstream_tb
+Z42 w1737571428
+R1
+R2
+R3
+R4
+R5
+Z43 8C:/spw-playground/tb/spwstream_testing.vhd
+Z44 FC:/spw-playground/tb/spwstream_testing.vhd
+l0
+L6
+V^E>AW3mal_?5Bfa?kc=1O2
+!s100 ac^^MYl89Vg:0O:V5oF]j3
+R8
+33
+Z45 !s110 1737571433
+!i10b 1
+Z46 !s108 1737571433.000000
+Z47 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/tb/spwstream_testing.vhd|
+Z48 !s107 C:/spw-playground/tb/spwstream_testing.vhd|
+!i113 1
+R13
+R14
+Aspwstream_tb_arch
+R1
+R2
+R3
+R4
+Z49 DEx4 work 12 spwstream_tb 0 22 ^E>AW3mal_?5Bfa?kc=1O2
+l104
+L9
+VY_OcSU1RUQQXEJVfLYAK[0
+!s100 <NoSlSD:>A7?hH4m6I65;1
+R8
+33
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R13
+R14
+Espwstream_template
+Z50 w1737553440
+R1
+R2
+R3
+R4
+R5
+Z51 8C:/spw-playground/tb/spwstream_template.vhd
+Z52 FC:/spw-playground/tb/spwstream_template.vhd
+l0
+L6
+V>7hT8EC3oPI9XWH;:KPaS2
+!s100 =WRzjhDR]`zMUAjM1laVm1
+R8
+33
+Z53 !s110 1737553520
+!i10b 1
+Z54 !s108 1737553520.000000
+Z55 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/tb/spwstream_template.vhd|
+Z56 !s107 C:/spw-playground/tb/spwstream_template.vhd|
+!i113 1
+R13
+R14
+Aspwstream_template_arch
+R1
+R2
+R3
+R4
+DEx4 work 18 spwstream_template 0 22 >7hT8EC3oPI9XWH;:KPaS2
+l100
+L9
+VlZO8:7F:_H7HMJSJO<:F@3
+!s100 jOK_^0d1ZSAV[04KJ;>i32
+R8
+33
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R13
+R14
 Espwxmit
 R0
 R1
@@ -333,8 +419,8 @@ R2
 R3
 R4
 R5
-Z42 8C:/spw-playground/src/spwxmit.vhd
-Z43 FC:/spw-playground/src/spwxmit.vhd
+Z57 8C:/spw-playground/src/spwxmit.vhd
+Z58 FC:/spw-playground/src/spwxmit.vhd
 l0
 L13
 V`3DLoPRjb@[NF5`be6jX=3
@@ -344,8 +430,8 @@ R8
 R9
 !i10b 1
 R10
-Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/src/spwxmit.vhd|
-Z45 !s107 C:/spw-playground/src/spwxmit.vhd|
+Z59 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/src/spwxmit.vhd|
+Z60 !s107 C:/spw-playground/src/spwxmit.vhd|
 !i113 1
 R13
 R14
@@ -364,8 +450,8 @@ R8
 R9
 !i10b 1
 R10
-R44
-R45
+R59
+R60
 !i113 1
 R13
 R14
@@ -376,8 +462,8 @@ R2
 R3
 R4
 R5
-Z46 8C:/spw-playground/src/spwxmit_fast.vhd
-Z47 FC:/spw-playground/src/spwxmit_fast.vhd
+Z61 8C:/spw-playground/src/spwxmit_fast.vhd
+Z62 FC:/spw-playground/src/spwxmit_fast.vhd
 l0
 L150
 V3Z5Pf7D5R_f9cJdbXIUzf0
@@ -387,8 +473,8 @@ R8
 R9
 !i10b 1
 R10
-Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/src/spwxmit_fast.vhd|
-Z49 !s107 C:/spw-playground/src/spwxmit_fast.vhd|
+Z63 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/spw-playground/src/spwxmit_fast.vhd|
+Z64 !s107 C:/spw-playground/src/spwxmit_fast.vhd|
 !i113 1
 R13
 R14
@@ -407,8 +493,8 @@ R8
 R9
 !i10b 1
 R10
-R48
-R49
+R63
+R64
 !i113 1
 R13
 R14

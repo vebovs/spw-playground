@@ -121,6 +121,9 @@ architecture tb_arch of spwlink_tb is
     signal spw_do:    std_logic;
     signal spw_so:    std_logic;
 
+    signal xor_o:     std_logic;
+    signal xor_i:     std_logic;
+
     -- misc
     signal errany:    std_logic;
 
@@ -267,6 +270,9 @@ begin
 
     -- Logic OR of all error signals.
     errany <= errdisc or errpar or erresc or errcred;
+
+    xor_i <= spw_di xor spw_si;
+    xor_o <= spw_do xor spw_so;
 
     -- Generate system clock.
     process is
