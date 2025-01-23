@@ -159,7 +159,7 @@ spwstream_inst: spwstream
     xor_o <= spw_so xor spw_do;
     
     p_stimuli: process is
-        procedure gen_bit(b: in std_logic) is
+        procedure gen_bit(b: std_logic) is
         begin
             spw_si <= not (spw_si xor spw_di xor b);
             spw_di <= b;
@@ -183,7 +183,27 @@ spwstream_inst: spwstream
         begin
             gen_esc;
             gen_fct;
-        end procedure;   
+        end procedure; 
+        procedure gen_eop is
+        begin
+            gen_bit('1');
+            gen_bit('0');
+            gen_bit('1');
+            gen_bit('0');
+        end procedure;
+        procedure gen_data(p: std_logic; data: std_logic_vector(7 downto 0)) is
+        begin
+            gen_bit(p);
+            gen_bit('0');
+            gen_bit(data(0));
+            gen_bit(data(1));
+            gen_bit(data(2));
+            gen_bit(data(3));
+            gen_bit(data(4));
+            gen_bit(data(5));
+            gen_bit(data(6));
+            gen_bit(data(7));
+        end procedure gen_data;
     begin
         rst <= '0';
         linkdis <= '0';
@@ -200,7 +220,15 @@ spwstream_inst: spwstream
         wait for bit_period * 8;
         gen_null;
         gen_null;
-        wait for 20 us;
+        wait for bit_period;
+        gen_fct;
+        gen_fct;
+        wait for bit_period * 2;
+        gen_data('1', "11110000");
+        gen_eop;
+        gen_data('0', "11100000");
+        gen_eop;
+        wait for 10 us;
         wait;
     end process;
         
